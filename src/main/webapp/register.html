@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>User Registration</title>
+</head>
+
+<body>
+
+<h2>User Registration</h2>
+
+<form action="registerUser" method="post">
+
+Name:<br>
+<input type="text" name="name" required><br><br>
+
+Email:<br>
+<input type="email" name="email" required><br><br>
+
+Password:<br>
+<input type="password" name="password" required><br><br>
+
+Role:<br>
+<select name="role">
+<option value="admin">Admin</option>
+<option value="teacher">Teacher</option>
+<option value="student">Student</option>
+</select>
+
+<br><br>
+
+<button type="submit">Register</button>
+
+</form>
+
+<br>
+
+<a href="login.html">Already have an account? Login</a>
+
+</body>
+</html>
